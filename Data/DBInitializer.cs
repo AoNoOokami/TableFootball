@@ -33,8 +33,8 @@ namespace TableFootball.Data
 
             var teams = new Team[]
             {
-                new Team{Name="Camille"},
-                new Team{Name="Dominique"}
+                new Team{Name="Camille", GoalsFor=0, GoalsAgainst=0, Wins=0, Losses=0},
+                new Team{Name="Dominique", GoalsFor=0, GoalsAgainst=0, Wins=0, Losses=0}
             };
 
             foreach (Team t in teams)
